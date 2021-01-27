@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18008" started-at="2021-01-26T21:11:31 MST" finished-at="2021-01-26T21:11:49 MST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18008" started-at="2021-01-26T21:11:31 MST" finished-at="2021-01-26T21:11:49 MST">
+      <class name="tests.LandingPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LandingPageTest@3dfc5fb8]" name="setup" is-config="true" duration-ms="4689" started-at="2021-01-26T21:11:31 MST" finished-at="2021-01-26T21:11:35 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="landingPageTitleTest()[pri:1, instance:tests.LandingPageTest@3dfc5fb8]" name="landingPageTitleTest" duration-ms="15" started-at="2021-01-26T21:11:35 MST" finished-at="2021-01-26T21:11:35 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LandingPageTest@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="703" started-at="2021-01-26T21:11:35 MST" finished-at="2021-01-26T21:11:36 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LandingPageTest@3dfc5fb8]" name="setup" is-config="true" duration-ms="3792" started-at="2021-01-26T21:11:36 MST" finished-at="2021-01-26T21:11:40 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoTest()[pri:1, instance:tests.LandingPageTest@3dfc5fb8]" name="logoTest" duration-ms="92" started-at="2021-01-26T21:11:40 MST" finished-at="2021-01-26T21:11:40 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LandingPageTest@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="617" started-at="2021-01-26T21:11:40 MST" finished-at="2021-01-26T21:11:41 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LandingPageTest@3dfc5fb8]" name="setup" is-config="true" duration-ms="3983" started-at="2021-01-26T21:11:41 MST" finished-at="2021-01-26T21:11:45 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signinLinkTest()[pri:2, instance:tests.LandingPageTest@3dfc5fb8]" name="signinLinkTest" duration-ms="3441" started-at="2021-01-26T21:11:45 MST" finished-at="2021-01-26T21:11:48 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LandingPageTest@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="609" started-at="2021-01-26T21:11:48 MST" finished-at="2021-01-26T21:11:49 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LandingPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
