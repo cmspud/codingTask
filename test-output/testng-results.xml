@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46461" started-at="2021-01-27T09:11:32 MST" finished-at="2021-01-27T09:12:19 MST">
+  <suite name="Default suite" duration-ms="50650" started-at="2021-01-27T09:42:02 MST" finished-at="2021-01-27T09:42:53 MST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46461" started-at="2021-01-27T09:11:32 MST" finished-at="2021-01-27T09:12:19 MST">
+    <test name="Default test" duration-ms="50650" started-at="2021-01-27T09:42:02 MST" finished-at="2021-01-27T09:42:53 MST">
       <class name="tests.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="6832" started-at="2021-01-27T09:11:33 MST" finished-at="2021-01-27T09:11:40 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="5924" started-at="2021-01-27T09:42:03 MST" finished-at="2021-01-27T09:42:09 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="786" started-at="2021-01-27T09:11:40 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:11:40 MST">
+        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="1953" started-at="2021-01-27T09:42:09 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:42:11 MST">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="616" started-at="2021-01-27T09:11:40 MST" finished-at="2021-01-27T09:11:41 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="597" started-at="2021-01-27T09:42:11 MST" finished-at="2021-01-27T09:42:12 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="6506" started-at="2021-01-27T09:11:41 MST" finished-at="2021-01-27T09:11:47 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="6664" started-at="2021-01-27T09:42:12 MST" finished-at="2021-01-27T09:42:18 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="2544" started-at="2021-01-27T09:11:47 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:11:50 MST">
+        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="1025" started-at="2021-01-27T09:42:18 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:42:19 MST">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="621" started-at="2021-01-27T09:11:50 MST" finished-at="2021-01-27T09:11:51 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="594" started-at="2021-01-27T09:42:19 MST" finished-at="2021-01-27T09:42:20 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="5154" started-at="2021-01-27T09:11:51 MST" finished-at="2021-01-27T09:11:56 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="6888" started-at="2021-01-27T09:42:20 MST" finished-at="2021-01-27T09:42:27 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="937" started-at="2021-01-27T09:11:56 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:11:57 MST">
+        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="1863" started-at="2021-01-27T09:42:27 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:42:29 MST">
           <params>
             <param index="0">
               <value>
@@ -75,15 +75,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="633" started-at="2021-01-27T09:11:57 MST" finished-at="2021-01-27T09:11:57 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="592" started-at="2021-01-27T09:42:29 MST" finished-at="2021-01-27T09:42:29 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="5550" started-at="2021-01-27T09:11:57 MST" finished-at="2021-01-27T09:12:03 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="5623" started-at="2021-01-27T09:42:29 MST" finished-at="2021-01-27T09:42:35 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="1343" started-at="2021-01-27T09:12:03 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:12:04 MST">
+        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="2290" started-at="2021-01-27T09:42:35 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:42:37 MST">
           <params>
             <param index="0">
               <value>
@@ -99,15 +99,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="605" started-at="2021-01-27T09:12:04 MST" finished-at="2021-01-27T09:12:05 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="593" started-at="2021-01-27T09:42:37 MST" finished-at="2021-01-27T09:42:38 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="4921" started-at="2021-01-27T09:12:05 MST" finished-at="2021-01-27T09:12:10 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="5178" started-at="2021-01-27T09:42:38 MST" finished-at="2021-01-27T09:42:43 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="941" started-at="2021-01-27T09:12:10 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:12:11 MST">
+        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="1092" started-at="2021-01-27T09:42:43 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:42:44 MST">
           <params>
             <param index="0">
               <value>
@@ -123,15 +123,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="587" started-at="2021-01-27T09:12:11 MST" finished-at="2021-01-27T09:12:11 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="590" started-at="2021-01-27T09:42:44 MST" finished-at="2021-01-27T09:42:45 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="5959" started-at="2021-01-27T09:12:11 MST" finished-at="2021-01-27T09:12:17 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="6511" started-at="2021-01-27T09:42:45 MST" finished-at="2021-01-27T09:42:51 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="852" started-at="2021-01-27T09:12:17 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:12:18 MST">
+        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="1279" started-at="2021-01-27T09:42:51 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:42:52 MST">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="598" started-at="2021-01-27T09:12:18 MST" finished-at="2021-01-27T09:12:19 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="586" started-at="2021-01-27T09:42:52 MST" finished-at="2021-01-27T09:42:53 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
