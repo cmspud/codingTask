@@ -1,49 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="1" failed="0" ignored="0" total="12" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18008" started-at="2021-01-26T21:11:31 MST" finished-at="2021-01-26T21:11:49 MST">
+  <suite name="codingTask Test Suite" duration-ms="82302" started-at="2021-01-26T22:50:14 MST" finished-at="2021-01-26T22:51:36 MST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18008" started-at="2021-01-26T21:11:31 MST" finished-at="2021-01-26T21:11:49 MST">
+    <test name="automationPracticeApp Test cases" duration-ms="82302" started-at="2021-01-26T22:50:14 MST" finished-at="2021-01-26T22:51:36 MST">
       <class name="tests.LandingPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LandingPageTest@3dfc5fb8]" name="setup" is-config="true" duration-ms="4689" started-at="2021-01-26T21:11:31 MST" finished-at="2021-01-26T21:11:35 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LandingPageTest@3d921e20]" name="setup" is-config="true" duration-ms="3744" started-at="2021-01-26T22:51:03 MST" finished-at="2021-01-26T22:51:07 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="landingPageTitleTest()[pri:1, instance:tests.LandingPageTest@3dfc5fb8]" name="landingPageTitleTest" duration-ms="15" started-at="2021-01-26T21:11:35 MST" finished-at="2021-01-26T21:11:35 MST">
+        <test-method status="PASS" signature="landingPageTitleTest()[pri:1, instance:tests.LandingPageTest@3d921e20]" name="landingPageTitleTest" duration-ms="25" started-at="2021-01-26T22:51:07 MST" finished-at="2021-01-26T22:51:07 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- landingPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LandingPageTest@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="703" started-at="2021-01-26T21:11:35 MST" finished-at="2021-01-26T21:11:36 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LandingPageTest@3d921e20]" name="tearDown" is-config="true" duration-ms="639" started-at="2021-01-26T22:51:07 MST" finished-at="2021-01-26T22:51:07 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LandingPageTest@3dfc5fb8]" name="setup" is-config="true" duration-ms="3792" started-at="2021-01-26T21:11:36 MST" finished-at="2021-01-26T21:11:40 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LandingPageTest@3d921e20]" name="setup" is-config="true" duration-ms="3920" started-at="2021-01-26T22:51:07 MST" finished-at="2021-01-26T22:51:11 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="logoTest()[pri:1, instance:tests.LandingPageTest@3dfc5fb8]" name="logoTest" duration-ms="92" started-at="2021-01-26T21:11:40 MST" finished-at="2021-01-26T21:11:40 MST">
+        <test-method status="PASS" signature="logoTest()[pri:1, instance:tests.LandingPageTest@3d921e20]" name="logoTest" duration-ms="37" started-at="2021-01-26T22:51:11 MST" finished-at="2021-01-26T22:51:11 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LandingPageTest@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="617" started-at="2021-01-26T21:11:40 MST" finished-at="2021-01-26T21:11:41 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LandingPageTest@3d921e20]" name="tearDown" is-config="true" duration-ms="607" started-at="2021-01-26T22:51:11 MST" finished-at="2021-01-26T22:51:12 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LandingPageTest@3dfc5fb8]" name="setup" is-config="true" duration-ms="3983" started-at="2021-01-26T21:11:41 MST" finished-at="2021-01-26T21:11:45 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LandingPageTest@3d921e20]" name="setup" is-config="true" duration-ms="3821" started-at="2021-01-26T22:51:12 MST" finished-at="2021-01-26T22:51:16 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="signinLinkTest()[pri:2, instance:tests.LandingPageTest@3dfc5fb8]" name="signinLinkTest" duration-ms="3441" started-at="2021-01-26T21:11:45 MST" finished-at="2021-01-26T21:11:48 MST">
+        <test-method status="PASS" signature="signinLinkTest()[pri:2, instance:tests.LandingPageTest@3d921e20]" name="signinLinkTest" duration-ms="2535" started-at="2021-01-26T22:51:16 MST" finished-at="2021-01-26T22:51:18 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signinLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LandingPageTest@3dfc5fb8]" name="tearDown" is-config="true" duration-ms="609" started-at="2021-01-26T21:11:48 MST" finished-at="2021-01-26T21:11:49 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LandingPageTest@3d921e20]" name="tearDown" is-config="true" duration-ms="608" started-at="2021-01-26T22:51:18 MST" finished-at="2021-01-26T22:51:19 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LandingPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.SearchPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchPageTest@3234e239]" name="setup" is-config="true" duration-ms="6878" started-at="2021-01-26T22:50:38 MST" finished-at="2021-01-26T22:50:45 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AddtoCartTest()[pri:0, instance:tests.SearchPageTest@3234e239]" name="AddtoCartTest" duration-ms="1084" started-at="2021-01-26T22:50:45 MST" finished-at="2021-01-26T22:50:46 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchPageTest@3234e239]" name="tearDown" is-config="true" duration-ms="632" started-at="2021-01-26T22:50:46 MST" finished-at="2021-01-26T22:50:47 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchPageTest@3234e239]" name="setup" is-config="true" duration-ms="7243" started-at="2021-01-26T22:50:47 MST" finished-at="2021-01-26T22:50:54 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoTest()[pri:0, instance:tests.SearchPageTest@3234e239]" name="logoTest" duration-ms="36" started-at="2021-01-26T22:50:54 MST" finished-at="2021-01-26T22:50:54 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchPageTest@3234e239]" name="tearDown" is-config="true" duration-ms="631" started-at="2021-01-26T22:50:54 MST" finished-at="2021-01-26T22:50:54 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchPageTest@3234e239]" name="setup" is-config="true" duration-ms="7712" started-at="2021-01-26T22:50:54 MST" finished-at="2021-01-26T22:51:02 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySearchPageTitleTest()[pri:0, instance:tests.SearchPageTest@3234e239]" name="verifySearchPageTitleTest" duration-ms="8" started-at="2021-01-26T22:51:02 MST" finished-at="2021-01-26T22:51:02 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchPageTest@3234e239]" name="tearDown" is-config="true" duration-ms="623" started-at="2021-01-26T22:51:02 MST" finished-at="2021-01-26T22:51:03 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchPageTest -->
+      <class name="tests.AccountPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AccountPageTest@36b4cef0]" name="setup" is-config="true" duration-ms="8229" started-at="2021-01-26T22:51:19 MST" finished-at="2021-01-26T22:51:27 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUserAccountNameTest()[pri:0, instance:tests.AccountPageTest@36b4cef0]" name="verifyUserAccountNameTest" duration-ms="27" started-at="2021-01-26T22:51:27 MST" finished-at="2021-01-26T22:51:27 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAccountNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AccountPageTest@36b4cef0]" name="tearDown" is-config="true" duration-ms="625" started-at="2021-01-26T22:51:27 MST" finished-at="2021-01-26T22:51:28 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AccountPageTest@36b4cef0]" name="setup" is-config="true" duration-ms="7790" started-at="2021-01-26T22:51:28 MST" finished-at="2021-01-26T22:51:35 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoTest()[pri:1, instance:tests.AccountPageTest@36b4cef0]" name="logoTest" duration-ms="44" started-at="2021-01-26T22:51:35 MST" finished-at="2021-01-26T22:51:35 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AccountPageTest@36b4cef0]" name="tearDown" is-config="true" duration-ms="658" started-at="2021-01-26T22:51:35 MST" finished-at="2021-01-26T22:51:36 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AccountPageTest -->
+      <class name="tests.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@c46bcd4]" name="setup" is-config="true" duration-ms="8620" started-at="2021-01-26T22:50:14 MST" finished-at="2021-01-26T22:50:22 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:tests.LoginPageTest@c46bcd4]" name="validLoginTest" duration-ms="1531" started-at="2021-01-26T22:50:22 MST" finished-at="2021-01-26T22:50:24 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@c46bcd4]" name="tearDown" is-config="true" duration-ms="634" started-at="2021-01-26T22:50:24 MST" finished-at="2021-01-26T22:50:25 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@c46bcd4]" name="setup" is-config="true" duration-ms="6358" started-at="2021-01-26T22:50:25 MST" finished-at="2021-01-26T22:50:31 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyloginPageTitleTest()[pri:0, instance:tests.LoginPageTest@c46bcd4]" name="verifyloginPageTitleTest" duration-ms="14" started-at="2021-01-26T22:50:31 MST" finished-at="2021-01-26T22:50:31 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@c46bcd4]" name="tearDown" is-config="true" duration-ms="656" started-at="2021-01-26T22:50:31 MST" finished-at="2021-01-26T22:50:32 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@c46bcd4]" name="setup" is-config="true" duration-ms="5557" started-at="2021-01-26T22:50:32 MST" finished-at="2021-01-26T22:50:37 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoTest()[pri:1, instance:tests.LoginPageTest@c46bcd4]" name="logoTest" duration-ms="72" started-at="2021-01-26T22:50:37 MST" finished-at="2021-01-26T22:50:37 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@c46bcd4]" name="tearDown" is-config="true" duration-ms="641" started-at="2021-01-26T22:50:37 MST" finished-at="2021-01-26T22:50:38 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:2, instance:tests.LoginPageTest@c46bcd4]" name="inValidLoginTest" duration-ms="0" started-at="2021-01-26T22:50:38 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-26T22:50:38 MST">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+at utils.TestUtil.getTestData(TestUtil.java:45)
+at tests.LoginPageTest.getcodingTaskTestData(LoginPageTest.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLoginTest -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- automationPracticeApp Test cases -->
+  </suite> <!-- codingTask Test Suite -->
 </testng-results>

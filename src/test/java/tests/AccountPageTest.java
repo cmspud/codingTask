@@ -1,5 +1,8 @@
 package tests;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -31,13 +34,13 @@ public class AccountPageTest extends TestBase {
 	@Test(priority=1)
 	public void logoTest() {
 		boolean flag = accountPage.logoPresent();
-		Assert.assertTrue(flag);
+		AssertJUnit.assertTrue(flag);
 	}
 	
 	@Test
 	public void verifyUserAccountNameTest() {
 		String userAccountName = accountPage.getUserAccountName();
-		Assert.assertEquals(userAccountName, "spoorthi dasari");
+		AssertJUnit.assertEquals(userAccountName, "spoorthi dasari");
 	}
 	
 

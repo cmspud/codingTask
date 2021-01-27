@@ -1,5 +1,8 @@
 package tests;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -34,13 +37,13 @@ public class LoginPageTest extends TestBase{
 	public void verifyloginPageTitleTest() {
 		String title = loginPage.verifyloginPageTitle();
 		System.out.println(title);
-		Assert.assertEquals(title, "Login - My Store");
+		AssertJUnit.assertEquals(title, "Login - My Store");
 	}
 	
 	@Test(priority=1)
 	public void logoTest() {
 		boolean flag = loginPage.logoPresent();
-		Assert.assertTrue(flag);
+		AssertJUnit.assertTrue(flag);
 	}
 	
 	
@@ -60,7 +63,7 @@ public class LoginPageTest extends TestBase{
 	public void inValidLoginTest(String email, String password) {
 		loginPage.validLogin(email, password);
 	}
-		
+	
 	@AfterMethod
 	public void tearDown() {
 		driver.quit();

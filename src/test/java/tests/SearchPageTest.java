@@ -1,5 +1,8 @@
 package tests;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -40,13 +43,13 @@ public class SearchPageTest extends TestBase {
 	@Test
 	public void logoTest() {
 		boolean flag = accountPage.logoPresent();
-		Assert.assertTrue(flag);
+		AssertJUnit.assertTrue(flag);
 	}
 	
 	@Test
 	public void verifySearchPageTitleTest() {
 		String searchPageTitle = searchPage.getSearchPageTitle();
-		Assert.assertEquals(searchPageTitle, "Search - My Store");
+		AssertJUnit.assertEquals(searchPageTitle, "Search - My Store");
 	}
 	
 	@Test

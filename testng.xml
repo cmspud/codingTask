@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="codingTask Test Suite">
+  <test name = "automationPracticeApp Test cases" >
+    <classes>
+      <class name="tests.LoginPageTest"/>
+      <class name="tests.SearchPageTest"/>
+      <class name="tests.LandingPageTest"/>
+      <class name="tests.AccountPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
