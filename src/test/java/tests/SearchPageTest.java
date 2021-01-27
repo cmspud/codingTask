@@ -49,8 +49,9 @@ public class SearchPageTest extends TestBase {
 	@Test
 	public void verifySearchPageTitleTest() {
 		String searchPageTitle = searchPage.getSearchPageTitle();
-		AssertJUnit.assertEquals(searchPageTitle, "Search - My Store");
+		Assert.assertEquals(searchPageTitle, prop.getProperty("SEARCH_PAGE_TITLE"));
 	}
+	
 	
 	@Test
 	public void AddtoCartTest() {

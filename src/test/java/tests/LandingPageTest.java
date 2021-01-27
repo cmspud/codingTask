@@ -29,7 +29,7 @@ public class LandingPageTest extends TestBase{
 	@Test(priority=1)
 	public void landingPageTitleTest() {
 		String title = landingPage.validateLandingPageTitle();
-		AssertJUnit.assertEquals(title, "My Store");
+		AssertJUnit.assertEquals(title, prop.getProperty("LANDING_PAGE_TITLE"));
 	}
 	
 	@Test(priority=1)

@@ -44,13 +44,13 @@ public class LoginPageTest extends TestBase{
 	public void logoTest() {
 		boolean flag = loginPage.logoPresent();
 		AssertJUnit.assertTrue(flag);
-	}
-	
-	
+	}	
 	
 	@Test()
 	public void validLoginTest() {
-		loginPage.validLogin(prop.getProperty("username"),prop.getProperty("password"));		
+		loginPage.validLogin(prop.getProperty("username"),prop.getProperty("password"));	
+		String title = driver.getTitle();
+		Assert.assertEquals(title, prop.getProperty("LOGIN_PAGE_TITLE"));
 	}
 	
 	@DataProvider()
@@ -59,7 +59,7 @@ public class LoginPageTest extends TestBase{
 		return data;
 	}
 	
-	@Test(priority=2, dataProvider="getcodingTaskTestData")
+	@Test(priority=4, dataProvider="getcodingTaskTestData")
 	public void inValidLoginTest(String email, String password) {
 		loginPage.validLogin(email, password);
 	}
