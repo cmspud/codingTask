@@ -42,6 +42,10 @@ public class SearchPage extends TestBase{
 	@FindBy(css="a[title='Add to cart']")
 	WebElement AddToCartBtn;
 	
+	@FindBy(xpath="//span[contains(text(),'Proceed to checkout')]")
+	WebElement ProceedToCheckoutBtn;
+	
+	
 	
 //	Initializing Page Objects	
 	public SearchPage() {

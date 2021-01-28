@@ -25,6 +25,10 @@ public class LoginPage extends TestBase{
 	@FindBy(css="button#SubmitLogin")
 	WebElement signinBtn;
 	
+	@FindBy(xpath="//*[@id=\"center_column\"]/div[1]/ol/li")
+	WebElement LoginError;
+	
+	
 //	Initializing Page Objects
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
@@ -51,5 +55,9 @@ public class LoginPage extends TestBase{
 	
 	public boolean logoPresent() {
 		return logo.isDisplayed();
+	}
+	
+	public boolean errorPresent() {
+		return LoginError.isDisplayed();
 	}
 }

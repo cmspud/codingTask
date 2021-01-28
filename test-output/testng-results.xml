@@ -1,17 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+<testng-results skipped="0" failed="6" ignored="0" total="17" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="50650" started-at="2021-01-27T09:42:02 MST" finished-at="2021-01-27T09:42:53 MST">
+  <suite name="codingTask Test Suite" duration-ms="163958" started-at="2021-01-28T11:00:58 MST" finished-at="2021-01-28T11:03:42 MST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="50650" started-at="2021-01-27T09:42:02 MST" finished-at="2021-01-27T09:42:53 MST">
-      <class name="tests.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="5924" started-at="2021-01-27T09:42:03 MST" finished-at="2021-01-27T09:42:09 MST">
+    <test name="automationPracticeApp Test cases" duration-ms="163958" started-at="2021-01-28T11:00:58 MST" finished-at="2021-01-28T11:03:42 MST">
+      <class name="tests.LandingPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LandingPageTest@31d7b7bf]" name="setup" is-config="true" duration-ms="5955" started-at="2021-01-28T11:03:08 MST" finished-at="2021-01-28T11:03:14 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="1953" started-at="2021-01-27T09:42:09 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:42:11 MST">
+        <test-method status="PASS" signature="landingPageTitleTest()[pri:1, instance:tests.LandingPageTest@31d7b7bf]" name="landingPageTitleTest" duration-ms="20" started-at="2021-01-28T11:03:14 MST" finished-at="2021-01-28T11:03:14 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LandingPageTest@31d7b7bf]" name="tearDown" is-config="true" duration-ms="585" started-at="2021-01-28T11:03:14 MST" finished-at="2021-01-28T11:03:15 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LandingPageTest@31d7b7bf]" name="setup" is-config="true" duration-ms="4222" started-at="2021-01-28T11:03:15 MST" finished-at="2021-01-28T11:03:19 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoTest()[pri:1, instance:tests.LandingPageTest@31d7b7bf]" name="logoTest" duration-ms="27" started-at="2021-01-28T11:03:19 MST" finished-at="2021-01-28T11:03:19 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LandingPageTest@31d7b7bf]" name="tearDown" is-config="true" duration-ms="604" started-at="2021-01-28T11:03:19 MST" finished-at="2021-01-28T11:03:19 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LandingPageTest@31d7b7bf]" name="setup" is-config="true" duration-ms="3764" started-at="2021-01-28T11:03:19 MST" finished-at="2021-01-28T11:03:23 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signinLinkTest()[pri:2, instance:tests.LandingPageTest@31d7b7bf]" name="signinLinkTest" duration-ms="2257" started-at="2021-01-28T11:03:23 MST" finished-at="2021-01-28T11:03:25 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LandingPageTest@31d7b7bf]" name="tearDown" is-config="true" duration-ms="627" started-at="2021-01-28T11:03:25 MST" finished-at="2021-01-28T11:03:26 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LandingPageTest -->
+      <class name="tests.SearchPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchPageTest@30ee2816]" name="setup" is-config="true" duration-ms="13914" started-at="2021-01-28T11:02:27 MST" finished-at="2021-01-28T11:02:41 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="AddtoCartTest()[pri:0, instance:tests.SearchPageTest@30ee2816]" name="AddtoCartTest" duration-ms="2701" started-at="2021-01-28T11:02:41 MST" finished-at="2021-01-28T11:02:43 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchPageTest@30ee2816]" name="tearDown" is-config="true" duration-ms="630" started-at="2021-01-28T11:02:43 MST" finished-at="2021-01-28T11:02:44 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchPageTest@30ee2816]" name="setup" is-config="true" duration-ms="9856" started-at="2021-01-28T11:02:44 MST" finished-at="2021-01-28T11:02:54 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoTest()[pri:0, instance:tests.SearchPageTest@30ee2816]" name="logoTest" duration-ms="31" started-at="2021-01-28T11:02:54 MST" finished-at="2021-01-28T11:02:54 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchPageTest@30ee2816]" name="tearDown" is-config="true" duration-ms="622" started-at="2021-01-28T11:02:54 MST" finished-at="2021-01-28T11:02:54 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchPageTest@30ee2816]" name="setup" is-config="true" duration-ms="13049" started-at="2021-01-28T11:02:54 MST" finished-at="2021-01-28T11:03:07 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySearchPageTitleTest()[pri:0, instance:tests.SearchPageTest@30ee2816]" name="verifySearchPageTitleTest" duration-ms="4" started-at="2021-01-28T11:03:07 MST" finished-at="2021-01-28T11:03:07 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchPageTest@30ee2816]" name="tearDown" is-config="true" duration-ms="609" started-at="2021-01-28T11:03:07 MST" finished-at="2021-01-28T11:03:08 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchPageTest -->
+      <class name="tests.AccountPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AccountPageTest@635eaaf1]" name="setup" is-config="true" duration-ms="7937" started-at="2021-01-28T11:03:26 MST" finished-at="2021-01-28T11:03:34 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUserAccountNameTest()[pri:0, instance:tests.AccountPageTest@635eaaf1]" name="verifyUserAccountNameTest" duration-ms="27" started-at="2021-01-28T11:03:34 MST" finished-at="2021-01-28T11:03:34 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAccountNameTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AccountPageTest@635eaaf1]" name="tearDown" is-config="true" duration-ms="644" started-at="2021-01-28T11:03:34 MST" finished-at="2021-01-28T11:03:35 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AccountPageTest@635eaaf1]" name="setup" is-config="true" duration-ms="6440" started-at="2021-01-28T11:03:35 MST" finished-at="2021-01-28T11:03:41 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoTest()[pri:1, instance:tests.AccountPageTest@635eaaf1]" name="logoTest" duration-ms="32" started-at="2021-01-28T11:03:41 MST" finished-at="2021-01-28T11:03:41 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AccountPageTest@635eaaf1]" name="tearDown" is-config="true" duration-ms="646" started-at="2021-01-28T11:03:41 MST" finished-at="2021-01-28T11:03:42 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AccountPageTest -->
+      <class name="tests.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="setup" is-config="true" duration-ms="6448" started-at="2021-01-28T11:00:58 MST" finished-at="2021-01-28T11:01:04 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="validLoginTest" duration-ms="1379" started-at="2021-01-28T11:01:04 MST" finished-at="2021-01-28T11:01:06 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="tearDown" is-config="true" duration-ms="634" started-at="2021-01-28T11:01:06 MST" finished-at="2021-01-28T11:01:06 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="setup" is-config="true" duration-ms="5385" started-at="2021-01-28T11:01:06 MST" finished-at="2021-01-28T11:01:12 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyloginPageTitleTest()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="verifyloginPageTitleTest" duration-ms="7" started-at="2021-01-28T11:01:12 MST" finished-at="2021-01-28T11:01:12 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="tearDown" is-config="true" duration-ms="619" started-at="2021-01-28T11:01:12 MST" finished-at="2021-01-28T11:01:12 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="setup" is-config="true" duration-ms="12736" started-at="2021-01-28T11:01:12 MST" finished-at="2021-01-28T11:01:25 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logoTest()[pri:1, instance:tests.LoginPageTest@c267ef4]" name="logoTest" duration-ms="43" started-at="2021-01-28T11:01:25 MST" finished-at="2021-01-28T11:01:25 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="tearDown" is-config="true" duration-ms="636" started-at="2021-01-28T11:01:25 MST" finished-at="2021-01-28T11:01:26 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="setup" is-config="true" duration-ms="9532" started-at="2021-01-28T11:01:26 MST" finished-at="2021-01-28T11:01:36 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@c267ef4]" name="inValidLoginTest" duration-ms="1961" started-at="2021-01-28T11:01:36 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-28T11:01:38 MST">
           <params>
             <param index="0">
               <value>
@@ -24,18 +162,60 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at org.testng.Assert.assertFalse(Assert.java:77)
+at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="597" started-at="2021-01-27T09:42:11 MST" finished-at="2021-01-27T09:42:12 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="tearDown" is-config="true" duration-ms="682" started-at="2021-01-28T11:01:38 MST" finished-at="2021-01-28T11:01:39 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="6664" started-at="2021-01-27T09:42:12 MST" finished-at="2021-01-27T09:42:18 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="setup" is-config="true" duration-ms="7423" started-at="2021-01-28T11:01:39 MST" finished-at="2021-01-28T11:01:46 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="1025" started-at="2021-01-27T09:42:18 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:42:19 MST">
+        <test-method status="FAIL" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@c267ef4]" name="inValidLoginTest" duration-ms="2470" started-at="2021-01-28T11:01:46 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-28T11:01:49 MST">
           <params>
             <param index="0">
               <value>
@@ -48,18 +228,60 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at org.testng.Assert.assertFalse(Assert.java:77)
+at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="594" started-at="2021-01-27T09:42:19 MST" finished-at="2021-01-27T09:42:20 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="tearDown" is-config="true" duration-ms="640" started-at="2021-01-28T11:01:49 MST" finished-at="2021-01-28T11:01:50 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="6888" started-at="2021-01-27T09:42:20 MST" finished-at="2021-01-27T09:42:27 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="setup" is-config="true" duration-ms="5818" started-at="2021-01-28T11:01:50 MST" finished-at="2021-01-28T11:01:56 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="1863" started-at="2021-01-27T09:42:27 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:42:29 MST">
+        <test-method status="FAIL" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@c267ef4]" name="inValidLoginTest" duration-ms="1100" started-at="2021-01-28T11:01:56 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-28T11:01:57 MST">
           <params>
             <param index="0">
               <value>
@@ -72,18 +294,60 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at org.testng.Assert.assertFalse(Assert.java:77)
+at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="592" started-at="2021-01-27T09:42:29 MST" finished-at="2021-01-27T09:42:29 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="tearDown" is-config="true" duration-ms="639" started-at="2021-01-28T11:01:57 MST" finished-at="2021-01-28T11:01:58 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="5623" started-at="2021-01-27T09:42:29 MST" finished-at="2021-01-27T09:42:35 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="setup" is-config="true" duration-ms="5591" started-at="2021-01-28T11:01:58 MST" finished-at="2021-01-28T11:02:03 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="2290" started-at="2021-01-27T09:42:35 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:42:37 MST">
+        <test-method status="FAIL" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@c267ef4]" name="inValidLoginTest" duration-ms="1291" started-at="2021-01-28T11:02:03 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-28T11:02:05 MST">
           <params>
             <param index="0">
               <value>
@@ -96,18 +360,60 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at org.testng.Assert.assertFalse(Assert.java:77)
+at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="593" started-at="2021-01-27T09:42:37 MST" finished-at="2021-01-27T09:42:38 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="tearDown" is-config="true" duration-ms="635" started-at="2021-01-28T11:02:05 MST" finished-at="2021-01-28T11:02:06 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="5178" started-at="2021-01-27T09:42:38 MST" finished-at="2021-01-27T09:42:43 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="setup" is-config="true" duration-ms="6614" started-at="2021-01-28T11:02:06 MST" finished-at="2021-01-28T11:02:12 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="1092" started-at="2021-01-27T09:42:43 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:42:44 MST">
+        <test-method status="FAIL" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@c267ef4]" name="inValidLoginTest" duration-ms="1590" started-at="2021-01-28T11:02:12 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-28T11:02:14 MST">
           <params>
             <param index="0">
               <value>
@@ -120,18 +426,60 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at org.testng.Assert.assertFalse(Assert.java:77)
+at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="590" started-at="2021-01-27T09:42:44 MST" finished-at="2021-01-27T09:42:45 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="tearDown" is-config="true" duration-ms="879" started-at="2021-01-28T11:02:14 MST" finished-at="2021-01-28T11:02:15 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@27808f31]" name="setup" is-config="true" duration-ms="6511" started-at="2021-01-27T09:42:45 MST" finished-at="2021-01-27T09:42:51 MST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="setup" is-config="true" duration-ms="7665" started-at="2021-01-28T11:02:15 MST" finished-at="2021-01-28T11:02:23 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@27808f31]" name="inValidLoginTest" duration-ms="1279" started-at="2021-01-27T09:42:51 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-27T09:42:52 MST">
+        <test-method status="FAIL" signature="inValidLoginTest(java.lang.String, java.lang.String)[pri:4, instance:tests.LoginPageTest@c267ef4]" name="inValidLoginTest" duration-ms="2800" started-at="2021-01-28T11:02:23 MST" data-provider="getcodingTaskTestData" finished-at="2021-01-28T11:02:26 MST">
           <params>
             <param index="0">
               <value>
@@ -144,14 +492,56 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertFalse(Assert.java:67)
+at org.testng.Assert.assertFalse(Assert.java:77)
+at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inValidLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@27808f31]" name="tearDown" is-config="true" duration-ms="586" started-at="2021-01-27T09:42:52 MST" finished-at="2021-01-27T09:42:53 MST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginPageTest@c267ef4]" name="tearDown" is-config="true" duration-ms="640" started-at="2021-01-28T11:02:26 MST" finished-at="2021-01-28T11:02:27 MST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- automationPracticeApp Test cases -->
+  </suite> <!-- codingTask Test Suite -->
 </testng-results>

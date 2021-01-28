@@ -4,10 +4,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
 import base.TestBase;
 import pageObjects.AccountPage;
@@ -48,9 +46,11 @@ public class LoginPageTest extends TestBase{
 	
 	@Test()
 	public void validLoginTest() {
-		loginPage.validLogin(prop.getProperty("username"),prop.getProperty("password"));	
 		String title = driver.getTitle();
 		Assert.assertEquals(title, prop.getProperty("LOGIN_PAGE_TITLE"));
+		loginPage.validLogin(prop.getProperty("username"),prop.getProperty("password"));		
+		String title1 = driver.getTitle();
+		Assert.assertEquals(title1, prop.getProperty("ACCOUNT_PAGE_TITLE"));
 	}
 	
 	@DataProvider()
@@ -62,6 +62,7 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=4, dataProvider="getcodingTaskTestData")
 	public void inValidLoginTest(String email, String password) {
 		loginPage.validLogin(email, password);
+		Assert.assertFalse(loginPage.errorPresent());
 	}
 	
 	@AfterMethod

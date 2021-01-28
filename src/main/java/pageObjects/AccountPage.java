@@ -61,9 +61,5 @@ public class AccountPage extends TestBase{
 	public boolean logoPresent() {
 		return logo.isDisplayed();
 	}
-	
-	
-	
-	
 
 }

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>automationPracticeApp Test cases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>11/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jan 26 22:50:14 MST 2021</td>
+<td>Started on:</td><td>Thu Jan 28 11:00:58 MST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>82 seconds (82302 ms)</td>
+<tr><td>Total time:</td><td>163 seconds (163958 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,93 +67,34 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.SearchPageTest.AddtoCartTest()'><b>AddtoCartTest</b><br>Test class: tests.SearchPageTest</td>
-<td></td>
-<td>1</td>
-<td>tests.SearchPageTest@3234e239</td></tr>
-<tr>
-<td title='tests.LandingPageTest.landingPageTitleTest()'><b>landingPageTitleTest</b><br>Test class: tests.LandingPageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.LandingPageTest@3d921e20</td></tr>
-<tr>
-<td title='tests.LoginPageTest.logoTest()'><b>logoTest</b><br>Test class: tests.LoginPageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.LoginPageTest@c46bcd4</td></tr>
-<tr>
-<td title='tests.SearchPageTest.logoTest()'><b>logoTest</b><br>Test class: tests.SearchPageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.SearchPageTest@3234e239</td></tr>
-<tr>
-<td title='tests.LandingPageTest.logoTest()'><b>logoTest</b><br>Test class: tests.LandingPageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.LandingPageTest@3d921e20</td></tr>
-<tr>
-<td title='tests.AccountPageTest.logoTest()'><b>logoTest</b><br>Test class: tests.AccountPageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.AccountPageTest@36b4cef0</td></tr>
-<tr>
-<td title='tests.LandingPageTest.signinLinkTest()'><b>signinLinkTest</b><br>Test class: tests.LandingPageTest</td>
-<td></td>
-<td>2</td>
-<td>tests.LandingPageTest@3d921e20</td></tr>
-<tr>
-<td title='tests.LoginPageTest.validLoginTest()'><b>validLoginTest</b><br>Test class: tests.LoginPageTest</td>
-<td></td>
-<td>1</td>
-<td>tests.LoginPageTest@c46bcd4</td></tr>
-<tr>
-<td title='tests.SearchPageTest.verifySearchPageTitleTest()'><b>verifySearchPageTitleTest</b><br>Test class: tests.SearchPageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.SearchPageTest@3234e239</td></tr>
-<tr>
-<td title='tests.AccountPageTest.verifyUserAccountNameTest()'><b>verifyUserAccountNameTest</b><br>Test class: tests.AccountPageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.AccountPageTest@36b4cef0</td></tr>
-<tr>
-<td title='tests.LoginPageTest.verifyloginPageTitleTest()'><b>verifyloginPageTitleTest</b><br>Test class: tests.LoginPageTest</td>
-<td></td>
-<td>0</td>
-<td>tests.LoginPageTest@c46bcd4</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='tests.LoginPageTest.inValidLoginTest()'><b>inValidLoginTest</b><br>Test class: tests.LoginPageTest</td>
-<td><div><pre>java.lang.RuntimeException: java.lang.NullPointerException
+<td title='tests.LoginPageTest.inValidLoginTest()'><b>inValidLoginTest</b><br>Test class: tests.LoginPageTest<br>Parameters: spoorthi, spoorthi</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
 	at java.util.ArrayList.forEach(Unknown Source)
-Caused by: java.lang.NullPointerException
-	at utils.TestUtil.getTestData(TestUtil.java:45)
-	at tests.LoginPageTest.getcodingTaskTestData(LoginPageTest.java:58)
-	... 25 more
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace126234454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace126234454'><pre>java.lang.RuntimeException: java.lang.NullPointerException
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace399149970", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace399149970'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -173,20 +114,287 @@ Caused by: java.lang.NullPointerException
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.lang.NullPointerException
-	at utils.TestUtil.getTestData(TestUtil.java:45)
-	at tests.LoginPageTest.getcodingTaskTestData(LoginPageTest.java:58)
+</pre></div></td>
+<td>1</td>
+<td>tests.LoginPageTest@c267ef4</td></tr>
+<tr>
+<td title='tests.LoginPageTest.inValidLoginTest()'><b>inValidLoginTest</b><br>Test class: tests.LoginPageTest<br>Parameters: user@gmail.com, password</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1098737173", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1098737173'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
-	... 25 more
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
+<td>2</td>
+<td>tests.LoginPageTest@c267ef4</td></tr>
+<tr>
+<td title='tests.LoginPageTest.inValidLoginTest()'><b>inValidLoginTest</b><br>Test class: tests.LoginPageTest<br>Parameters: usergmail.com, password</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1053856141", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1053856141'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>tests.LoginPageTest@c267ef4</td></tr>
+<tr>
+<td title='tests.LoginPageTest.inValidLoginTest()'><b>inValidLoginTest</b><br>Test class: tests.LoginPageTest<br>Parameters: user@gmailcom, password</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1210600718", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1210600718'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>tests.LoginPageTest@c267ef4</td></tr>
+<tr>
+<td title='tests.LoginPageTest.inValidLoginTest()'><b>inValidLoginTest</b><br>Test class: tests.LoginPageTest<br>Parameters: spoorthi@gmail.co, Test@123</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1107218767", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1107218767'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>tests.LoginPageTest@c267ef4</td></tr>
+<tr>
+<td title='tests.LoginPageTest.inValidLoginTest()'><b>inValidLoginTest</b><br>Test class: tests.LoginPageTest<br>Parameters:        , spoorthi</td>
+<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
+	at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1066561773", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1066561773'><pre>java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at tests.LoginPageTest.inValidLoginTest(LoginPageTest.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>tests.LoginPageTest@c267ef4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.SearchPageTest.AddtoCartTest()'><b>AddtoCartTest</b><br>Test class: tests.SearchPageTest</td>
+<td></td>
+<td>2</td>
+<td>tests.SearchPageTest@30ee2816</td></tr>
+<tr>
+<td title='tests.LandingPageTest.landingPageTitleTest()'><b>landingPageTitleTest</b><br>Test class: tests.LandingPageTest</td>
+<td></td>
 <td>0</td>
-<td>tests.LoginPageTest@c46bcd4</td></tr>
+<td>tests.LandingPageTest@31d7b7bf</td></tr>
+<tr>
+<td title='tests.LoginPageTest.logoTest()'><b>logoTest</b><br>Test class: tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.LoginPageTest@c267ef4</td></tr>
+<tr>
+<td title='tests.SearchPageTest.logoTest()'><b>logoTest</b><br>Test class: tests.SearchPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SearchPageTest@30ee2816</td></tr>
+<tr>
+<td title='tests.LandingPageTest.logoTest()'><b>logoTest</b><br>Test class: tests.LandingPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.LandingPageTest@31d7b7bf</td></tr>
+<tr>
+<td title='tests.AccountPageTest.logoTest()'><b>logoTest</b><br>Test class: tests.AccountPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AccountPageTest@635eaaf1</td></tr>
+<tr>
+<td title='tests.LandingPageTest.signinLinkTest()'><b>signinLinkTest</b><br>Test class: tests.LandingPageTest</td>
+<td></td>
+<td>2</td>
+<td>tests.LandingPageTest@31d7b7bf</td></tr>
+<tr>
+<td title='tests.LoginPageTest.validLoginTest()'><b>validLoginTest</b><br>Test class: tests.LoginPageTest</td>
+<td></td>
+<td>1</td>
+<td>tests.LoginPageTest@c267ef4</td></tr>
+<tr>
+<td title='tests.SearchPageTest.verifySearchPageTitleTest()'><b>verifySearchPageTitleTest</b><br>Test class: tests.SearchPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.SearchPageTest@30ee2816</td></tr>
+<tr>
+<td title='tests.AccountPageTest.verifyUserAccountNameTest()'><b>verifyUserAccountNameTest</b><br>Test class: tests.AccountPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.AccountPageTest@635eaaf1</td></tr>
+<tr>
+<td title='tests.LoginPageTest.verifyloginPageTitleTest()'><b>verifyloginPageTitleTest</b><br>Test class: tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>tests.LoginPageTest@c267ef4</td></tr>
 </table><p>
 </body>
 </html>
